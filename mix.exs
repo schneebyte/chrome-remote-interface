@@ -25,8 +25,8 @@ defmodule ChromeRemoteInterface.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:jason, "~> 1.1"},
-      {:hackney, "~> 1.8 or ~> 1.7 or ~> 1.6"},
+      {:jason, "~> 1.4"},
+      {:hackney, "~> 1.20.1"},
       {:websockex, "~> 0.4.0"},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false}
     ]
